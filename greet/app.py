@@ -10,7 +10,7 @@ def welcome_message():
 
 @app.get('/welcome/home')
 def welcome_home_message():
-   '''prints welcome home message on screen'''
+    '''prints welcome home message on screen'''
 
     html = "<body><h1> welcome home </body></h1>"
     return html
@@ -20,6 +20,3 @@ def welcome_back_message():
     '''prints welcome back message on screen'''
     html = "<body><h1> welcome back </body></h1>"
     return html
-
-
-
