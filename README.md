@@ -17,7 +17,7 @@ Two small Flask apps
 
         flask run  
     
-For Macs, usually some process already listen on port 5000 and you'll need to run  
+    For Macs, usually some process already listen on port 5000 and you'll need to run  
 
         flask run -p 5001  
 
